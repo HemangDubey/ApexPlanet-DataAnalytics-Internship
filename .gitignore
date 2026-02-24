@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs
+output_log.txt
+
+# IDE
+.vscode/
+.idea/
