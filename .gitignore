@@ -38,3 +38,6 @@ desktop.ini
 *.tmp
 *.log
 stderr*.txt
+Task_4_Data_Story_Full_Export.*
+*.pdf
+!Task-4-Data-Storytelling-Statistical-Validation/*.pdf
