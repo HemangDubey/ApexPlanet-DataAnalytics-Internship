@@ -56,4 +56,4 @@ python task1_wrangler.py --input data/raw_data.csv --output Task_1_Output
 
 ---
 
-*Part of the [Apex Planet Data Analytics Internship](https://github.com/HemangDubey/ApexPlanet-DataAnalytics-Internship) by [Hemang Dubey](https://www.linkedin.com/in/hemang-dubey-7b801628b/)*
+*Part of the [Apex Planet Data Analytics Internship](https://github.com/HemangDubey/Hemang-Dubey-DataAnalyst-Internship-Portfolio) by [Hemang Dubey](https://www.linkedin.com/in/hemang-dubey-7b801628b/)*

@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🚀 Apex Planet — Data Analytics Internship
+# 🚀 Hemang Dubey — Data Analyst Internship Portfolio
 
 ### *A comprehensive, end-to-end Data Analytics portfolio built across 4 progressive tasks*
 
@@ -35,7 +35,7 @@ This repository contains the complete deliverables for the **Apex Planet Data An
 
 ## 📂 Task Breakdown
 
-### [`Task 1` — Data Immersion & Wrangling](https://github.com/HemangDubey/ApexPlanet-DataAnalytics-Internship/tree/main/Task-1-Data-Immersion-Wrangling)
+### [`Task 1` — Data Immersion & Wrangling](https://github.com/HemangDubey/Hemang-Dubey-DataAnalyst-Internship-Portfolio/tree/main/Task-1-Data-Immersion-Wrangling)
 
 > *Transform raw, messy data into a clean, analysis-ready dataset.*
 
@@ -48,7 +48,7 @@ This repository contains the complete deliverables for the **Apex Planet Data An
 
 ---
 
-### [`Task 2` — Exploratory Data Analysis & Business Intelligence](https://github.com/HemangDubey/ApexPlanet-DataAnalytics-Internship/tree/main/Task-2-EDA-Business-Intelligence)
+### [`Task 2` — Exploratory Data Analysis & Business Intelligence](https://github.com/HemangDubey/Hemang-Dubey-DataAnalyst-Internship-Portfolio/tree/main/Task-2-EDA-Business-Intelligence)
 
 > *Uncover hidden patterns through statistical analysis & SQL-powered business questions.*
 
@@ -61,7 +61,7 @@ This repository contains the complete deliverables for the **Apex Planet Data An
 
 ---
 
-### [`Task 3` — Deep-Dive Analysis & Interactive Dashboarding + AI Modules](https://github.com/HemangDubey/ApexPlanet-DataAnalytics-Internship/tree/main/Task-3-DeepDive-Interactive-Dashboard)
+### [`Task 3` — Deep-Dive Analysis & Interactive Dashboarding + AI Modules](https://github.com/HemangDubey/Hemang-Dubey-DataAnalyst-Internship-Portfolio/tree/main/Task-3-DeepDive-Interactive-Dashboard)
 
 > *A full-stack, AI-powered interactive BI platform with 8 dashboard modules.*
 
@@ -76,7 +76,7 @@ This repository contains the complete deliverables for the **Apex Planet Data An
 
 ---
 
-### [`Task 4` — Data Storytelling & Statistical Validation](https://github.com/HemangDubey/ApexPlanet-DataAnalytics-Internship/tree/main/Task-4-Data-Storytelling-Statistical-Validation)
+### [`Task 4` — Data Storytelling & Statistical Validation](https://github.com/HemangDubey/Hemang-Dubey-DataAnalyst-Internship-Portfolio/tree/main/Task-4-Data-Storytelling-Statistical-Validation)
 
 > *Convert analytical findings into a compelling executive narrative backed by statistical proof.*
 
@@ -110,6 +110,46 @@ This repository contains the complete deliverables for the **Apex Planet Data An
 
 ---
 
+## 🧠 Key Learnings & Technical Skills Demonstrated
+
+### Data Engineering & Wrangling
+- Designed and implemented a **production-grade data pipeline** capable of processing 500K+ raw records into analysis-ready datasets
+- Developed automated **data quality profiling** with IQR outlier detection, missing value diagnostics, and data type inference
+- Built reusable **CLI tools** using `argparse` for reproducible data workflows
+
+### Statistical Analysis & EDA
+- Applied **descriptive statistics** (mean, median, skewness, kurtosis) to characterize revenue and customer behavior distributions
+- Conducted **Pareto (80/20) analysis** revealing that <20% of customers drive 75%+ of revenue
+- Performed **hypothesis testing** (Chi-Square, p < 0.00001) to statistically validate the causal link between order cancellations and customer churn
+
+### SQL & Database Querying
+- Wrote **10+ complex SQL queries** using CTEs, Window Functions (`ROW_NUMBER`, `LAG`), and CASE statements
+- Used **SQLite as an in-memory analytical engine** to answer critical business questions at speed
+- Designed queries for cohort analysis, RFM segmentation, and time-series revenue aggregation
+
+### Data Visualization & Dashboard Design
+- Created a **custom interactive SPA dashboard** from scratch (zero frameworks, pure HTML/CSS/JS)
+- Designed a **premium dark-mode glassmorphism UI** with micro-animations and responsive layout
+- Built **8 interconnected dashboard modules** — from KPI cards to cohort heatmaps to correlation matrices
+- Implemented **Chart.js** for line/pie charts and **custom HTML/CSS bars** for maximum visual control
+
+### AI / Machine Learning Integration
+- Integrated **Groq API (Llama 3.3 70B)** to build a context-aware AI chatbot (H.O.N.E.Y) that reads live dataset metadata
+- Designed a **structured prompt engineering pipeline** with system prompts, context injection, and conversational memory
+- Implemented server-side **API key protection**, rate limiting, and input sanitization
+
+### Full-Stack Engineering
+- Built a **Node.js/Express backend** serving both static files and RESTful API endpoints on a single port
+- Developed a **client-side CSV parsing engine** (PapaParse) with automatic schema detection and KPI generation
+- Created a **Business Simulation Engine** with compound growth, churn decay, and price elasticity modeling over 12-month projections
+
+### Business Communication & Storytelling
+- Translated complex data findings into a **9-section executive narrative** suitable for C-suite presentation
+- Formulated **5 actionable strategic recommendations** (VIP retention, peak-hour flash sales, catalog pruning) grounded in quantitative evidence
+- Delivered insights on **£1.46M in revenue loss** from cancellations and its downstream impact on customer lifetime value
+
+---
+
 ## 🛠️ Technology Stack
 
 | Category | Technologies |
@@ -128,8 +168,8 @@ This repository contains the complete deliverables for the **Apex Planet Data An
 
 ```bash
 # Clone the repository
-git clone https://github.com/HemangDubey/ApexPlanet-DataAnalytics-Internship.git
-cd ApexPlanet-DataAnalytics-Internship
+git clone https://github.com/HemangDubey/Hemang-Dubey-DataAnalyst-Internship-Portfolio.git
+cd Hemang-Dubey-DataAnalyst-Internship-Portfolio
 
 # Task 1: Run the data wrangler
 cd Task-1-Data-Immersion-Wrangling
