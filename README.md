@@ -47,17 +47,58 @@ python task1_wrangler.py --input data/raw_data.csv --output ./Task_1_Output
 
 ---
 
+## Task 2: Exploratory Data Analysis & Business Intelligence
+
+A comprehensive EDA pipeline that uncovers patterns, trends, and relationships in the data using statistical analysis, SQL queries, and advanced visualizations.
+
+### Features
+
+- **Descriptive & Univariate Analysis** — Summary statistics, histograms, bar charts, box plots
+- **SQL Business Questions** — 7 real-world queries answered via SQLite (revenue, customers, products, trends)
+- **Multivariate Analysis** — Correlation heatmap, scatter plots, year×month heatmap, pair plots
+- **Static Dashboard Mock-up** — Full KPI dashboard with 6 panels (revenue, orders, customers, trends)
+- **Auto-generated Reports** — EDA report + SQL queries report in Markdown
+
+### Tech Stack
+
+`Python 3.x` · `pandas` · `NumPy` · `matplotlib` · `seaborn` · `SQLite`
+
+### Usage
+
+```bash
+cd Task-2-EDA-Business-Intelligence
+python task2_eda.py --input ../Task-1-Data-Immersion-Wrangling/Task_1_Output/cleaned_data.csv
+```
+
+### Output Artifacts
+
+| File | Description |
+|------|-------------|
+| `dashboard_mockup.png` | Full KPI dashboard with 6 visualization panels |
+| `eda_report.md` | Comprehensive EDA findings and insights |
+| `sql_results/sql_queries_report.md` | 7 SQL business questions with results |
+| `charts/` (11 files) | Individual analysis charts (dark-themed, publication-ready) |
+
+---
+
 ## Repository Structure
 
 ```
 ApexPlanet-DataAnalytics-Internship/
 ├── Task-1-Data-Immersion-Wrangling/
-│   ├── task1_wrangler.py          # Main wrangling script
+│   ├── task1_wrangler.py
 │   ├── data/
-│   │   └── raw_data.csv           # Raw dataset (not tracked - too large)
+│   │   └── raw_data.csv               # (not tracked - too large)
 │   └── Task_1_Output/
-│       ├── cleaned_data.csv       # Cleaned output
-│       └── data_dictionary.md     # Auto-generated data dictionary
+│       └── data_dictionary.md
+├── Task-2-EDA-Business-Intelligence/
+│   ├── task2_eda.py
+│   └── Task_2_Output/
+│       ├── dashboard_mockup.png
+│       ├── eda_report.md
+│       ├── charts/                     # 11 visualization PNGs
+│       └── sql_results/
+│           └── sql_queries_report.md
 ├── .gitignore
 └── README.md
 ```
