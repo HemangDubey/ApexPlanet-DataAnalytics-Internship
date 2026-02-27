@@ -40,7 +40,8 @@ function setupNav() {
             document.getElementById(`section-${sec}`).classList.add('active');
             const titles = {
                 overview: 'Dashboard Overview', eda: 'Advanced EDA', cohort: 'Cohort & RFM Segmentation',
-                sql: 'SQL Business Intelligence', insights: 'Strategic Insights', 'kpi-detail': 'KPI Reference'
+                sql: 'SQL Business Intelligence', insights: 'Strategic Insights', 'kpi-detail': 'KPI Reference',
+                'csv-engine': '📁 CSV Data Engine', simulation: '🧪 Simulation Lab'
             };
             document.getElementById('pageTitle').textContent = titles[sec] || 'Dashboard';
             if (window.innerWidth < 900) document.getElementById('sidebar').classList.remove('open');
